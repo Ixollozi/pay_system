@@ -19,6 +19,7 @@ class UserDent(BaseModel):
 
 
 class CardDent(BaseModel):
+    user_id: int
     card_number: int
     cardholder: str
     exp_date: int
