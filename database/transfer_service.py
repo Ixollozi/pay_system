@@ -29,7 +29,7 @@ def money_transfer_db(card_from, card_to, amount, transaction_date):
         return 'Недостаточна средства'
 
     return 'Ошибка в данных'
-
+#
 
 ## мониторинг по card_id истории плотежей
 def get_card_history(user_id):
